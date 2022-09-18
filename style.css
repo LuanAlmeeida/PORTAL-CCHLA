@@ -1,0 +1,902 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Topo{
+    background:cornflowerblue;
+    height: 33px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+       
+}
+
+/*MENU TOPO CANTO DIREITO - POSIÇÃO DA NAV*/
+
+    .Menu-Topo-Canto-Direito{
+        float: right;
+        margin-right: 75px;
+        font-size: 12px;
+        background-color: transparent;
+        
+    }
+
+/*MENU TOPO CANTO DIREITO*/
+
+    .Menu-Topo-Canto-Direito ul{
+        list-style-type: none;    
+        position: relative;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+            
+    }
+
+    .Menu-Topo-Canto-Direito ul li{
+        display: block;
+        padding: 9px;
+        z-index: 1;
+        border-radius: 6px;
+    }
+
+
+    .Menu-Topo-Canto-Direito ul li a{
+        color: darkblue;
+        text-decoration: none;
+        transition: background .3s;
+        
+    }
+
+    .Menu-Topo-Canto-Direito ul li > a:hover{
+        color:whitesmoke;   
+            
+    }
+    
+/*SUB MENU TOPO CANTO DIREITO*/
+
+    .Menu-Topo-Canto-Direito ul ul{
+        display: none;
+        position: absolute;    
+        
+    }
+
+    .Menu-Topo-Canto-Direito ul li:hover ul{
+        display: block;
+        padding: 0px;
+    
+        
+    }
+
+    .Menu-Topo-Canto-Direito ul ul li a{
+        display: block;
+        position: relative;
+        
+    }
+
+
+/*SEPARADORES VERTICAL MENU TOPO CANTO DIREITO*/
+
+    .Menu-Topo-Canto-Direito  #item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9 /*:first-child:before*/ {
+        border-right: 1px solid whitesmoke;
+        
+    }
+
+/*SEPARADORES HORIZONTAL SUBMENU TOPO CANTO DIREITO*/
+
+    #Menu-Topo-Canto-Direito .Sub-Menu-Topo-Canto-Direito #item1-1, #item2-1, #item4-1{
+        border: 1px solid whitesmoke;
+        background-color: cornflowerblue;     
+        display:block;
+        margin-left: 0;     
+        
+        
+    }
+     
+    .Menu-Topo-Canto-Direito #item1-2, #item1-3, #item1-4, #item1-5, #item2-2, #item2-3, #item2-4, #item2-5, #item4-2, #item4-3, #item4-4{
+        border-bottom: 1px solid whitesmoke;
+        border-right: 1px solid whitesmoke;
+        border-left: 1px solid whitesmoke;
+        background-color: cornflowerblue;
+        display: block;     
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+/* MENU PRINCIPAL - POSICIONAMENTO DA NAV*/
+    
+    .Menu-Principal{
+        float:right;
+        margin-right: 75px;
+        height: 100px;
+        font-size: 18px;
+        background-color: darkblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+/*MENU PRINCIPAL*/ 
+
+    .Menu-Principal ul{
+        list-style-type: none;
+        
+    }
+
+    .Menu-Principal ul li{
+        float: left;
+        color: darkblue;
+        position: relative;
+        padding: 18px;
+    }
+
+    .Menu-Principal ul li a{
+        display: block;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    .Menu-Principal ul li:hover > a {
+        color: lightskyblue;
+                
+    }
+
+    .Menu-Principal ul li ul{
+        display: none;
+        position: absolute;
+    }
+
+/* SUB MENU PRINCIPAL*/       
+
+    .Menu-Principal ul li:hover ul {
+        display: block;
+        width: 150px;      
+               
+    }
+    
+    .Menu-Principal ul li ul li{
+        cursor: pointer;
+        width: 150px;
+        font-size: 14px;
+        background-color:darkblue;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        border-bottom: 2px dotted black;
+        border-radius: 6px;
+        
+        
+    }
+
+    .Menu-Principal ul li ul li:hover > a {
+        color: lightskyblue;       
+        
+    }
+
+    .Menu-Principal ul li ul li ul li{
+         display: none; 
+           
+    }
+
+/* SUB MENU DO SUB MENU PRINCIPAL*/
+    
+    .Menu-Principal ul li ul li ul{
+        top:0;
+        margin-left: -18px;
+    }
+    
+    .Menu-Principal ul li ul li:hover ul li{
+        display: block;
+        left: 100%;
+       
+    }
+
+/*MENU FIXO AO ROLAR A PÁGINA*/
+
+   .Menu_Principal_Fixo_no_Topo{
+        position: fixed;
+        top:0;
+        width: 100%;
+        z-index: 1;
+        
+    }
+
+    /*MENU TOPO CANTO DIREITO - ÁREA PRIVATIVA*/
+
+    .Cabeçalho-Login{
+        background-color: cornflowerblue;
+        float: left;
+        display: block;
+        justify-content: left;
+        justify-content: first baseline;
+        border-radius: 6px;
+        border: 1px solid whitesmoke;
+    }
+
+    label,input,#Recuperar-Senha {
+        display: block;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 5px;
+        
+    }
+
+    #Botão-Login{
+        background-color: blue;
+        color: whitesmoke;
+        float: right;
+        margin-right: 15px;
+        margin-bottom: 5px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    #Botão-Login:hover{
+        background-color: darkblue;
+        transform: .5s;
+
+    }
+
+
+    textarea:focus, input:focus{
+        outline: none;
+    }
+
+    
+    
+    /*MENU TOPO CANTO ESQUERDO ÍCONES REDES SOCIAIS*/
+   
+    #Facebook, #Instagram, #Twitter, #Youtube{
+        color: whitesmoke;
+        padding: 3px;
+        opacity: 0.6;
+          
+    }
+
+    #Facebook:hover{
+        opacity: 1;
+    }
+    
+    #Instagram:hover {
+        opacity: 1;
+    } 
+    
+    #Twitter:hover {
+        opacity: 1;
+    }
+    
+    #Youtube:hover{
+        opacity: 1;
+          
+    }
+    
+    #Menu-Topo-Canto-Esquerdo{
+        float: left;
+        background: transparent;
+        height: 30px;
+        width: 250px;
+        margin-left: 75px;
+        padding-right: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #Menu-Topo-Canto-Esquerdo ul li{
+        display: inline;
+        font-size: 12px;
+       
+    }
+      
+    
+    #Menu{
+        background: rgb(0, 0, 139);
+        height: 100px;
+        /*box-shadow: 5em 0 0.4em rgb(59, 59, 55);*/
+         
+    }
+    #Logo-Canto-Esquerdo{
+        background: transparent;
+        float: left;
+        margin-left: 75px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #Logo-Canto-Esquerdo figure img{
+        height: 78px;
+        width: 180px;  
+    }
+
+    #Logo-Canto-Esquerdo a:hover{
+        opacity: 0.7;
+    }
+    /*#Menu-Principal-Canto-Direito{
+        background: transparent;
+        float: right;
+        margin-right: 75px;
+        height: 100px;
+        padding-right: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #Menu-Principal-Canto-Direito ul li{
+        display: inline;
+        margin-left: 30px;
+        font-size: 18px; 
+     } */
+    
+    
+    #Imagem{
+        background:snow;
+        height: 150px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #Imagem figure img{
+        height: 100px;
+        width: 1100PX;
+        
+    }
+    #Barra-Principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+                
+    }
+
+    /*CONTEÚDO PRINCIPAL - MAIN*/
+
+    .Carrosel1 {
+        border-bottom: 1px dashed black;
+        text-align: justify;
+        width: 260px;
+        height: 510px;
+        display: inline-block;
+        margin-left: 25px;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .Carrosel1:target{
+        display: block;
+    }
+
+    .Carrosel2 {
+        border-bottom: 1px dashed black;
+        text-align: justify;
+        width: 260px;
+        height: 50px;
+        display: inline-block;
+        margin-left: 25px;
+        justify-content:center;
+        align-items:center;
+        vertical-align: middle;
+        
+    }
+
+    .Carrosel2 p {
+        padding-top: 15px;
+    }
+
+   
+
+    .Passar{
+        display: block;
+        height: 33px;
+        width:33px;
+        margin-left: 820px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .row1{
+        display: inline-block;
+        height: 33px;
+        width: 33px;
+        margin-left: 350px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+    .Destaque{
+        width: 270px;
+        height: 250px;
+        float: right;
+        margin-right: 95px;
+        margin-top: 15px;
+        /*border: 1px solid black;*/
+        position: relative;
+
+    }
+
+    .Destaque i{
+        display: none;
+    }
+
+    .Destaque:hover i {
+        position: absolute;
+        background-color: rgb(100, 148, 237, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        top: 0; bottom: 0;
+        left: 0; right: 0;
+        margin-right: 75px;
+       
+      
+      }
+
+    a{
+        text-decoration: none;
+    }
+
+
+    .Carrosel1 a{
+        color: darkblue;
+    }
+
+    .Carrosel1 a:hover{
+        color: cornflowerblue;
+    }
+
+    #comentario{
+        float: right;
+        margin-right: 10px;
+        color: darkblue;
+        line-height: 1px;
+        vertical-align: middle;   
+    }
+
+    
+    #comentario:hover{
+        color: cornflowerblue;  
+        
+    }
+
+    #curtida{
+        float: right;
+        margin-right: 10px;
+        color: darkblue;
+        line-height: 1px;
+        vertical-align: middle;        
+    }
+
+    #curtida:hover{
+        color: cornflowerblue;
+          
+    }
+
+    
+
+    #Grid4 a:hover img{
+        opacity: 0.3;        
+    }
+
+    #link{
+        color: whitesmoke;
+    }
+
+    #arquivo{
+        color: whitesmoke;
+    }
+
+    .noticia{
+
+        /*margin-left: 75px;*/
+        width: 255px;
+        height: 125px;
+        border: 6px solid gray;
+
+    }
+
+    .Contatos{
+        width: 269px; 
+        height: 249px;
+    }
+
+    
+    /*#Principal{
+        background: yellowgreen;
+        height: 600px;
+        
+    }*/
+    #Barra-Secundaria{
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        
+    }
+    #Rodape{
+        background: rgba(22,65,148,0.95);
+        height: 150px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+           
+         
+    }
+    #Rodape p{
+        color: whitesmoke;
+        text-align: center;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #Brasão img{
+        float: left;
+        margin-bottom: 0;
+        right: 0px;
+        height: 130px;
+        width: 150px;
+        background-color: transparent;
+        margin-left: 165px;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Logo-Horizontal img{
+        float: right;
+        margin-bottom: 0px;
+        right: 0px;
+        height: 110px;
+        width: 200px;
+        background-color: transparent;
+        margin-right: 165px;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+     
+    }
+
+    #Direitos-Autorais{
+        background: darkblue;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #Direitos-Autorais p{
+        color: whitesmoke;
+        text-align: center;
+        font-size: 14px;
+         
+    }
+    
+/*PÁGINA SOBRE*/
+
+    h2{
+        text-align: center;
+        text-decoration: underline;
+        color: darkblue;
+    }
+
+    #Sobre{
+       text-align: justify;
+       margin-left: 75px;
+       margin-right: 75px; 
+    }
+
+/*PÁGINA CONSEC*/
+    
+    .CONSEC{
+        margin-left: 75px;
+        list-style-type: none;
+        
+    }
+
+    .CONSEC a:hover{
+        color: cornflowerblue;
+        
+    }
+
+/*PÁGINA PRESTAÇÃO DE CONTAS*/
+
+    .butão{
+        color: whitesmoke;
+        background-color: blue;
+        height: 30px;
+        width: 120px;
+        float: right;
+        margin-right: 75px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .butão a:hover{
+        background-color: darkblue;
+    }
+
+    .Titulos{
+        margin-left: 75px;
+        color: darkblue;
+    }
+
+   .Tit{
+       height: 45px;
+   }
+
+ /*PÁGINA DE PESQUISA*/
+ 
+ .Pesquisar{
+     margin-left: 75px;
+     display: inline-block
+ }
+
+ #Botão-Pesquisa{
+     background-color: darkblue;
+     border-radius: 3px;
+     color: whitesmoke;
+     height: 30px;
+     width: 60px;
+     padding: 0px;
+ }
+
+ #busca{
+     height: 30px;
+ }
+
+ .recipiente{
+     /*border: 1px solid black;*/
+     margin-left: 88px;
+     margin-top: 15px;
+     width: 870px;
+     height: 600px;
+     overflow: hidden;
+     display: inline-block
+     
+ }
+
+ .recipiente ul{
+    list-style-type: none ;
+    display: flex;
+}
+
+
+.recipiente2{
+    border-bottom: 1px dashed black;
+    margin-left: 21px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    width: 576px;
+    height: 290px;
+    overflow: hidden;
+    display: inline-block;
+    
+    
+}
+
+.recipiente2 ul{
+    list-style-type: none ;
+    display: flex;
+    
+}
+
+.Passar2{
+    display: block;
+    height: 33px;
+    width:33px;
+    margin-left: 520px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Carrosel3 {
+    /*border: 1px dashed black;*/
+    text-align: justify;
+    width: 273px;
+    height: 190px;
+    display: inline-block;
+    margin-left: 10px;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+
+.materia-especial{
+    width: 271px;
+    height: 188px;
+}
+
+.Carrosel3 i{
+    display: none;
+}
+
+.Carrosel3:hover i {
+    position: absolute;
+    background-color: rgb(100, 148, 237, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin-right: 75px;
+}
+
+.Passar3{
+    display: block;
+    height: 33px;
+    width:33px;
+    margin-left: 220px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Passar4{
+    display: block;
+    height: 33px;
+    width:33px;
+    margin-left: 220px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.recipiente3{
+    border: 1px solid black;
+    width: 270px;
+    height: 250px;
+    margin-left: 400px;
+    margin-bottom: 300px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.recipiente4{
+    border-bottom: 1px dashed black;
+    width: 270px;
+    height: 290px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.recipiente4 ul{
+    list-style-type: none ;
+    display: flex;
+    
+}
+
+.Carrosel4 {
+    /*border: 1px dashed black;*/
+    text-align: justify;
+    width: 253px;
+    height: 190px;
+    display: inline-block;
+    margin-left: 9px;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+    .Carrosel4 i{
+        display: none;
+    }
+    
+    .Carrosel4:hover i {
+        position: absolute;
+        background-color: rgb(100, 148, 237, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        top: 0; bottom: 0;
+        left: 0; right: 0;
+        margin-right: 75px;
+    }
+
+    .revista{
+        width: 251px;
+        height: 188px;
+    }
+
+    .Passar5{
+        display: block;
+        height: 33px;
+        width:33px;
+        margin-left: 220px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .recipiente5{
+        border-bottom: 1px dashed black;
+        width: 270px;
+        height: 290px;
+        margin-left: 90px;
+        margin-bottom: 100px;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    .recipiente5 ul{
+        list-style-type: none ;
+        display: flex;
+        
+    }
+
+    .Carrosel5 {
+        /*border: 1px dashed black;*/
+        text-align: justify;
+        width: 253px;
+        height: 190px;
+        display: inline-block;
+        margin-left: 9px;
+        justify-content:center;
+        align-items: center;
+        position: relative;
+    }
+
+    .Carrosel5 i{
+        display: none;
+    }
+    
+    .Carrosel5:hover i {
+        position: absolute;
+        background-color: rgb(100, 148, 237, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        top: 0; bottom: 0;
+        left: 0; right: 0;
+        margin-right: 75px;
+    }
+
+    #esquerda{
+        color: darkblue;
+    }
+
+    #esquerda:hover{
+        color: cornflowerblue;
+    }
+
+    #direita{
+        color: darkblue;
+    }
+
+    #direita:hover{
+        color: cornflowerblue;
+    }
+
+
+  
+    
