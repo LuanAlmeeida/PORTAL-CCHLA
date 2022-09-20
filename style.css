@@ -301,8 +301,8 @@ body{
     
     #Menu{
         background: rgb(0, 0, 139);
-        /*height: 100px;*/
-        width: 100%;
+        height: 100px;
+        /*width: 100%;*/
         /*box-shadow: 5em 0 0.4em rgb(59, 59, 55);*/
          
     }
