@@ -135,9 +135,9 @@ body{
 
     .Menu-Principal ul li{
         float: left;
-        color: darkblue;
+        /*color: darkblue;*/
         position: relative;
-        padding: 18px;
+        /*padding: 18px;*/
     }
 
     .Menu-Principal ul li a{
