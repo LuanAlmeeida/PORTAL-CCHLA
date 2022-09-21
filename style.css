@@ -51,7 +51,7 @@ body{
 
 
     .Menu-Topo-Canto-Direito ul li a{
-        color: darkblue;
+        /*color: darkblue;*/
         text-decoration: none;
         transition: background .3s;
         
