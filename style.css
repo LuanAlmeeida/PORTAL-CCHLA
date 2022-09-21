@@ -341,8 +341,8 @@ body{
     
     
     #Imagem{
-        background:snow;
         height: 150px;
+        max-width: calc(100%-165px);
         margin-top: 10px;
         display: flex;
         justify-content: center;
