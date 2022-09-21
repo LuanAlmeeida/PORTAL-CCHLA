@@ -546,6 +546,11 @@ body{
         
     }
 
+    #Mapa{
+        margin-right: 165px;
+        margin-left: 165px;
+    }
+
     #Brasão img{
         float: left;
         margin-bottom: 0;
