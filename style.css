@@ -341,8 +341,8 @@ body{
     
     
     #Imagem{
-        height: 150px;
-        max-width: calc(100%-165px);
+        height: 100px;
+        width: 1100PX;
         margin-top: 10px;
         display: flex;
         justify-content: center;
