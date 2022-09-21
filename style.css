@@ -344,14 +344,14 @@ body{
         height: 100px;
         width: 1100PX;
         margin-top: 10px;
-        display: flex;
+        /*display: flex;*/
         justify-content: center;
         align-items: center;
         
     }
     #Imagem figure img{
         height: 100px;
-        width: 1100PX;
+        width: 100%;
         
     }
     #Barra-Principal{
