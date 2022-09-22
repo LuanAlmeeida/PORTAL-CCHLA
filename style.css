@@ -162,22 +162,6 @@ body{
         position: absolute;
     }
 
-    #cu{
-        display: none;
-    }
-
-    #ro{
-        display: none;
-    }
-
-        .Menu-Principal ul li ul li ul li:hover #cu{
-        display: block;       
-       
-    }
-
-     .Menu-Principal ul li ul li ul li:hover #ro{
-        display: block;      
-    }
 
 /* SUB MENU PRINCIPAL*/       
 
@@ -699,14 +683,19 @@ body{
      height: 30px;
  }
 
+ .sec-1{
+    width: 870px;
+ }
+
  .recipiente{
      /*border: 1px solid black;*/
      margin-left: 88px;
      margin-top: 15px;
-     width: 870px;
+     /*width: 870px;*/
+     width: 100%;
      height: 600px;
      overflow: hidden;
-     display: inline-block
+     display: inline-block;   
      
  }
 
