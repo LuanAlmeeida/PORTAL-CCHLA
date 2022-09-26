@@ -10,6 +10,13 @@ body{
     padding: 0;
 }
 
+.continer{
+    max-width: 70%;
+    margin: auto;
+    border-right: 3px solid cornflowerblue;
+    border-left: 3px solid cornflowerblue;
+    
+}
 .Topo{
     background:cornflowerblue;
     height: 33px;
