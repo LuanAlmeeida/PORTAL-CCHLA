@@ -8,6 +8,10 @@
 body{
     margin: 0;
     padding: 0;
+    background-image:url(https://cdn.pixabay.com/photo/2016/10/22/17/06/gradient-1761190_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
 }
 
 .continer{
@@ -15,6 +19,7 @@ body{
     margin: auto;
     border-right: 3px solid cornflowerblue;
     border-left: 3px solid cornflowerblue;
+    background-color: white;
     
 }
 .Topo{
@@ -31,8 +36,8 @@ body{
 
     .Menu-Topo-Canto-Direito{
         float: right;
-        margin-right: 75px;
-        font-size: 12px;
+        margin-right:5px;
+        font-size: 10px;
         background-color: transparent;
         
     }
@@ -124,7 +129,7 @@ body{
     
     .Menu-Principal{
         float:right;
-        margin-right: 75px;
+        margin-right: 2%;
         height: 100px;
         font-size: 16px;
         background-color: darkblue;
@@ -221,7 +226,7 @@ body{
    .Menu_Principal_Fixo_no_Topo{
         position: fixed;
         top:0;
-        width: 100%;
+        width: 69.6%;
         z-index: 1;
         
     }
@@ -298,10 +303,10 @@ body{
     #Menu-Topo-Canto-Esquerdo{
         float: left;
         background: transparent;
-        height: 30px;
-        width: 250px;
-        margin-left: 75px;
-        padding-right: 30px;
+        /*height: 30px;*/
+        /*width: 250px;*/
+        margin-left: 7%;
+        /*padding-right: 30px;*/
         display: flex;
         justify-content: center;
         align-items: center;
@@ -309,7 +314,7 @@ body{
     }
     #Menu-Topo-Canto-Esquerdo ul li{
         display: inline;
-        font-size: 12px;
+        font-size: 10px;
        
     }
       
@@ -324,7 +329,7 @@ body{
     #Logo-Canto-Esquerdo{
         background: transparent;
         float: left;
-        margin-left: 75px;
+        margin-left: 3%;
         height: 100px;
         display: flex;
         justify-content: center;
@@ -347,8 +352,8 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    #Menu-Principal-Canto-Direito ul li{
+    }*/
+   /* #Menu-Principal-Canto-Direito ul li{
         display: inline;
         margin-left: 30px;
         font-size: 18px; 
@@ -379,7 +384,18 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        max-width: 90%;
                 
+    }
+
+     #barra-topo{
+      
+        width: 110%;
+        padding-left: 1%;
+        
+        
+        
+        
     }
 
     /*CONTEÚDO PRINCIPAL - MAIN*/
@@ -546,7 +562,19 @@ body{
     #Barra-Secundaria{
         display: flex;
         justify-content: center;
-        margin-top: 70px;
+        margin-top: 10px;
+        max-width: 90%;
+        padding-left: 1%;
+        
+    }
+
+     #barra-inferior{
+      
+        width: 110%;
+        padding-left: 1%;
+        
+        
+        
         
     }
     #Rodape{
