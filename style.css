@@ -1002,8 +1002,20 @@ body{
         color: cornflowerblue;
     }
 
+table, th, td{
+    border: 3px solid lightblue;
+    border-collapse: collapse;
+    max-width: 90%;
+    margin: auto;
+    padding: 7px;
+    
+}
 
-   
+th{
+    height: 45px;
+    background-color: darkblue;
+    color: white;
+}
 
 
   
