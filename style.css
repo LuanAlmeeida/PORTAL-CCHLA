@@ -1017,6 +1017,46 @@ th{
     color: white;
 }
 
+#barra{
+    display: flex;
+    max-width: 97%;
+    height: 45px;
+    margin: auto;
+    gap: 20px;
+    
+    
+}
+
+#d1{
+    background-color: rgba(22,65,148,0.95);
+    width: 70%;
+    height: 45px;  
+}
+
+#d2{
+    background-color: rgba(22,65,148,0.95);
+    width: 30%;
+    height: 45px;
+}
+
+#d1 h2{
+    text-align: left;
+    display: flex;
+    margin-left: 3%;
+    color: whitesmoke;
+    padding-top: 0.7%;
+    
+}
+
+#d2 h2{
+    text-align: left;
+    margin-left: 5%;
+    color: whitesmoke;
+    padding-top: 0.7%;
+}
+
+
+
 
   
     
