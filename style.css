@@ -559,27 +559,27 @@ body{
     }
 
     #Noticia1 {
-        width: 190%;
-        margin-left: 9%;
+        width: 220%;
+        /*margin-left: 9%;*/
     }
     
 
      #Noticia2 {
-        width: 190%;
+        width: 220%;
     }
 
      #Noticia3 {
-        width: 190%;
+        width: 220%;
     }
     #Noticia4 {
-        width: 190%;
+        width: 220%;
     }
 
     #Noticia5 {
-        width: 190%;
+        width: 220%;
     }
     #Noticia6 {
-        width: 190%;
+        width: 220%;
     }
 
 
@@ -760,16 +760,16 @@ body{
  }
 
  .sec-1{
-    width:93%;
+    width:120%;
     
  }
 
  .recipiente{
      /*border: 1px solid black;*/
      /*margin-left: 88px;*/
-     /*margin-top: 15px;*/
+     margin-top: 1%;
      /*width: 870px;*/
-     max-width: 80%;
+     max-width: 83%;
      /*height: 2%;*/
      overflow: hidden;
      display: inline-block; 
@@ -780,7 +780,7 @@ body{
  .recipiente ul{
     list-style-type: none ;
     display: flex;
-    margin-left: 3%;
+    /*margin-left: 3%;*/
     gap: 18%;
 }
 
