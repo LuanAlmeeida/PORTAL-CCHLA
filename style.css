@@ -461,11 +461,11 @@ body{
 
 
     .Destaque{
-        width: 24%;
-        height: 220px;
+        width: 100%;
+        height: 280px;
         float: right;
-        margin-right: 0.8%;
-        /*margin-top: 15px;*/
+        /*margin-right: 0.8%;*/
+        margin-top: 5%;
         /*border: 1px solid black;*/
         position: relative;
 
@@ -473,7 +473,7 @@ body{
 
     .Destaque img{
         width: 100%;
-        height: 220px;
+        /*height: 220px;*/
     }
 
     .Destaque i{
