@@ -1144,7 +1144,49 @@ th{
     height: 100%;
 }
 
+#cap{
+    width: 75%;
+    padding-top: 20%;
+    padding-left: 25%;
+}
 
+#dep{
+    width: 75%;
+    padding-top: 20%;
+    padding-left: 25%;
+}
 
+#doc{
+    width: 75%;
+    padding-top: 20%;
+    padding-left: 25%;
+}
+
+#cal{
+    width: 75%;
+    padding-top: 20%;
+    padding-left: 25%;    
+}
+
+.txt{
+    text-decoration: none;
+}
+
+a > h2:hover{
+    color: skyblue;
+}
+
+#loc1{
+    color: darkblue;    
+}
+
+#loc{
+    display: inline-block;  
+}
+
+#cdiloc{
+    display: flex;
+    justify-content: center;
+}
   
     
