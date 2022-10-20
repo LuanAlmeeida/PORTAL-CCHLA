@@ -1122,32 +1122,84 @@ th{
 
 #bolas{
     display: flex;
-    max-width: 99%;
-    height: 450%;
-    background-color: darkred;
+    width: 87%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+    /*gap: 30px;*/
     /*margin: auto;*/
+    /*justify-content: center;*/
+    /*gap: 100px;*/
+    justify-content: space-around;
+}
+
+.linkb{
+    display: flex;
     justify-content: center;
-    gap: 100px;
-    
-    
+    justify-items: center;
+    align-items: center;
 }
 .circuloE{
     border: 3px solid grey;
-    border-radius: 100%;
-    height: 50%;
-    width: 50%;
+    border-radius: 50%;
+    /*height: 250%;*/
+    width: 60%;
+    height: 99%;
     display: flex;
     justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
 .circuloI{
     background-color: cornflowerblue;
-    border: 1px solid whitesmoke;
+    border: 3px solid whitesmoke;
     border-radius: 50%;
-    height: 50%;
+    width: 250%;
+    height: 100%;   
+    display: flex;
+    justify-content: center;
 }
 
-#cap{
+.picture{
+   width: 60%;
+   height: 95%;
+   
+}
+
+#bolas a div div:hover{
+    background-color: lightskyblue;
+}
+
+#nomesbolas{
+ display:flex;
+ margin: auto;
+ width: 87%;
+ justify-content: space-around;
+ 
+}
+
+.linkn{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#nomesbolas a div h2:hover{
+    color: cornflowerblue;
+}
+#nomes{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+
+/*#cap{
     width: 75%;
     padding-top: 20%;
     padding-left: 25%;
@@ -1161,15 +1213,14 @@ th{
 
 #doc{
     width: 75%;
-    padding-top: 20%;
-    padding-left: 25%;
+   
 }
 
 #cal{
     width: 75%;
     padding-top: 20%;
     padding-left: 25%;    
-}
+}*/
 
 .txt{
     text-decoration: none;
@@ -1198,8 +1249,16 @@ a > h2:hover{
     margin-right: 5%;
 }
 
-a > p:hover{
+/*a > p:hover{
     color: grey;
+}
+
+a > i:hover{
+    color: grey;
+}*/
+
+#topo div:hover a{
+    color: gray;
 }
 
 #und1{
