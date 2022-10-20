@@ -1066,13 +1066,13 @@ th{
 
 #d3{
     background-color: rgba(22,65,148,0.95);
-    width: 70%;
+    width: 60%;
     height: 45px;  
 }
 
 #d4{
     background-color: rgba(22,65,148,0.95);
-    width: 70%;
+    width: 60%;
     height: 45px;  
 }
 
@@ -1123,25 +1123,28 @@ th{
 #bolas{
     display: flex;
     max-width: 99%;
-    height: 45px;
-    margin: auto;
+    height: 450%;
+    background-color: darkred;
+    /*margin: auto;*/
     justify-content: center;
     gap: 100px;
     
     
 }
-#circuloE{
+.circuloE{
     border: 3px solid grey;
     border-radius: 100%;
-    height: 415%;
-    width: 15%;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
-#circuloI{
+.circuloI{
     background-color: cornflowerblue;
     border: 1px solid whitesmoke;
-    border-radius: 100%;
-    height: 100%;
+    border-radius: 50%;
+    height: 50%;
 }
 
 #cap{
@@ -1223,7 +1226,7 @@ a > p:hover{
 }
 
 #setas_2{
-    display: none;
+    display: flex;
     float: right;
 }
 
@@ -1237,46 +1240,50 @@ a > p:hover{
 #und2-1{
     width: 70%;
     display: flex;
+    flex-wrap: wrap;
     gap: 1%;
-    
-    
-    
-    
+     
 }
 
 #und2-1-1{
-    width: 35%;
-    height: 450px;
+    width: 49%;
+    height: 50%;
     background-color: aquamarine;
-    margin: auto;
+    /*margin: auto;*/
     border-radius: 3%;
-    
-    
+     
 }
 
 #und2-1-2{
-    width: 35%;
-    height: 450px;
+    width: 49%;
+    height: 50%;
     background-color: brown;
-    margin: auto;
+    /*margin: auto;*/
     border-radius: 3%;
-    
-    
+  
 }
 
 #und2-1-3{
-    width: 35%;
-    height: 450px;
+    width: 49%;
+    height: 50%;
     background-color: green;
-    margin: auto;
+    /*margin: auto;*/
     border-radius: 3%;
-    
-    
+
+}
+
+#und2-1-4{
+    width: 49%;
+    height: 50%;
+    background-color: skyblue;
+    /*margin: auto;*/
+    border-radius: 3%;
+
 }
 
 #und2-2{
     width: 30%;
-    height: 450px;
+    height: 500px;
     
     
 }
@@ -1308,12 +1315,12 @@ a > p:hover{
 }
 
 #AvancarRetroceder1{
-    width: 70%;
+    width: 60%;
     
 }
 
 #AvancarRetroceder2{
-    width: 70%;
+    width: 60%;
 }
 
 #AvancarRetroceder3{
@@ -1347,13 +1354,13 @@ a > p:hover{
 
 #trmd1{
     background-color: red;
-    width: 70%;
+    width: 60%;
     border-radius: 3%;
 }
 
 #trmd2{
     background-color: violet;
-    width: 70%;
+    width: 60%;
     border-radius: 3%;
 }
 
@@ -1385,7 +1392,7 @@ a > p:hover{
 }
 
 #eed1{
-    width: 70%;
+    width: 60%;
     border-radius: 3%;
     display:flex;
     flex-direction: column;
@@ -1430,17 +1437,17 @@ a > p:hover{
 
 #eed2-1{
     background-color: gray;
-    width: 48%;
+    width: 49%;
     height: 50%;
     border-radius: 3%;
-    margin-left: 1.5%;
+    /*margin-left: 1.5%;*/
     /*float: left;*/   
     
 }
 
 #eed2-2{
     background-color: blue;
-    width: 48%;
+    width: 49%;
     height: 50%;
     border-radius: 3%;
     margin-left: 1.5%;
@@ -1451,10 +1458,10 @@ a > p:hover{
 
 #eed2-3{
     background-color: yellow;
-    width: 48%;
+    width: 49%;
     height: 50%;
     border-radius: 3%;
-    margin-left: 1.5%; 
+    /*margin-left: 1.5%;*/ 
     /*float: left;*/
     
     
@@ -1462,7 +1469,7 @@ a > p:hover{
 
 #eed2-4{
     background-color: skyblue;
-    width: 48%;
+    width: 49%;
     height: 50%;
     border-radius: 3%;
     margin-left: 1.5%;
