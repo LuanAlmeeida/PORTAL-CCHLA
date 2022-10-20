@@ -1199,6 +1199,281 @@ a > p:hover{
     color: grey;
 }
 
+#und1{
+    display: flex;
+    width: 97%;
+    margin: auto;
+    padding-top: 5px;
+    gap: 20px;
+}
+
+#Avancar_Retroceder1{
+    width: 70%;
+    
+}
+
+#Avancar_Retroceder2{
+    width: 30%;
+    
+}
+
+#setas_1{
+    display: flex;
+    float: right;
+}
+
+#setas_2{
+    display: none;
+    float: right;
+}
+
+#und2{
+    display: flex;
+    margin: auto;
+    width: 97%;
+    gap: 20px;
+}
+
+#und2-1{
+    width: 70%;
+    display: flex;
+    gap: 1%;
+    
+    
+    
+    
+}
+
+#und2-1-1{
+    width: 35%;
+    height: 450px;
+    background-color: aquamarine;
+    margin: auto;
+    border-radius: 3%;
+    
+    
+}
+
+#und2-1-2{
+    width: 35%;
+    height: 450px;
+    background-color: brown;
+    margin: auto;
+    border-radius: 3%;
+    
+    
+}
+
+#und2-1-3{
+    width: 35%;
+    height: 450px;
+    background-color: green;
+    margin: auto;
+    border-radius: 3%;
+    
+    
+}
+
+#und2-2{
+    width: 30%;
+    height: 450px;
+    
+    
+}
+
+#und2-2{
+    display:flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+#und2-2-1{
+    height: 50%;
+    background-color: silver;
+    border-radius: 3%;
+}
+
+#und2-2-2{
+    height: 50%;
+    background-color: pink;
+    border-radius: 3%;
+}
+
+#trm{
+    display: flex;
+    width: 97%;
+    margin: auto;
+    padding-top: 5px;
+    gap:20px; 
+}
+
+#AvancarRetroceder1{
+    width: 70%;
+    
+}
+
+#AvancarRetroceder2{
+    width: 70%;
+}
+
+#AvancarRetroceder3{
+    width: 125%;
+}
+
+#setas1{
+    display: flex;
+    float: right;
+}
+
+#setas2{
+    display: flex;
+    float: right;
+}
+
+#setas3{
+    display: flex;
+    float: right;
+}
+
+#trm2{
+    display: flex;
+    width: 97%;
+    height: 300px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap:20px; 
+}
+
+#trmd1{
+    background-color: red;
+    width: 70%;
+    border-radius: 3%;
+}
+
+#trmd2{
+    background-color: violet;
+    width: 70%;
+    border-radius: 3%;
+}
+
+#trmd3{
+    width: 125%;
+    border-radius: 3%;
+    display: flex;
+    gap: 1.5%;
+}
+
+#trmd3-1{
+    width: 50%;
+    background-color: skyblue;
+    border-radius: 3%;
+}
+
+#trmd3-2{
+    width: 50%;
+    background-color: gold;
+    border-radius: 3%;
+}
+
+#ee{
+    width: 97%;
+    height: 500px;
+    display: flex;
+    gap: 20px;
+    margin: auto;
+}
+
+#eed1{
+    width: 70%;
+    border-radius: 3%;
+    display:flex;
+    flex-direction: column;
+    gap:1.5%;
+}
+
+#eed1-1{
+    background-color: gray;
+    height: 50%;
+    border-radius: 3%;
+}
+
+#eed1-2{
+    background-color: orange;
+    height: 50%;
+    border-radius: 3%;
+}
+
+#eed1-3{
+    background-color: pink;
+    height: 50%;
+    border-radius: 3%;
+}
+
+#eed1-4{
+    background-color: cadetblue;
+    height: 50%;
+    border-radius: 3%;
+}
+
+#eed2{
+    
+    width: 125%;
+    border-radius: 3%;
+    display: flex;   
+    flex-wrap: wrap;
+    row-gap:1.5%;
+   
+  
+   
+}
+
+#eed2-1{
+    background-color: gray;
+    width: 48%;
+    height: 50%;
+    border-radius: 3%;
+    margin-left: 1.5%;
+    /*float: left;*/   
+    
+}
+
+#eed2-2{
+    background-color: blue;
+    width: 48%;
+    height: 50%;
+    border-radius: 3%;
+    margin-left: 1.5%;
+    /*float: right;*/
+    
+    
+}
+
+#eed2-3{
+    background-color: yellow;
+    width: 48%;
+    height: 50%;
+    border-radius: 3%;
+    margin-left: 1.5%; 
+    /*float: left;*/
+    
+    
+}
+
+#eed2-4{
+    background-color: skyblue;
+    width: 48%;
+    height: 50%;
+    border-radius: 3%;
+    margin-left: 1.5%;
+    /*float: right;*/
+    
+}
+
+
+
+
+
 
   
     
