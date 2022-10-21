@@ -551,7 +551,7 @@ body{
 
     .noticia{
         width: 100%;
-        height: 155px;
+        height: 100%;
         border: 6px solid gray;
         border-radius: 5%;
 
@@ -571,7 +571,7 @@ body{
         background-color: cornflowerblue;
         border-radius: 5px;
         width: 20%;
-        height: 25%;
+        height: 15%;
     }
 
     #Noticia1 {
@@ -1318,10 +1318,11 @@ a > i:hover{
 
 #und2-1{
     width: 70%;
+    max-height: 500px;
     display: flex;
     flex-wrap: wrap;
     gap: 1%;
-     
+    background-color: black;  
 }
 
 #und2-1-1{
@@ -1329,9 +1330,7 @@ a > i:hover{
     height: 50%;
     /*margin: auto;*/
     border-radius: 3%;
-    display: flexbox;
-    justify-content: space-around;
-    background-color: brown;
+   
      
 }
 
@@ -1340,6 +1339,7 @@ a > i:hover{
     height: 50%;
     /*margin: auto;*/
     border-radius: 3%;
+    background-color: red;
   
 }
 
