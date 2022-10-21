@@ -553,8 +553,9 @@ body{
 
         /*margin-left: 75px;*/
         width: 100%;
-        height: 125px;
+        height: 155px;
         border: 6px solid gray;
+        border-radius: 5%;
 
     }
 
@@ -1310,6 +1311,8 @@ a > i:hover{
     background-color: aquamarine;
     /*margin: auto;*/
     border-radius: 3%;
+    display: flexbox;
+    justify-content: space-around;
      
 }
 
