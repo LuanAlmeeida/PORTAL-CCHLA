@@ -550,13 +550,28 @@ body{
     }
 
     .noticia{
-
-        /*margin-left: 75px;*/
         width: 100%;
         height: 155px;
         border: 6px solid gray;
         border-radius: 5%;
 
+    }
+
+    .tags{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        height: 50%;
+    }
+
+    .dtgas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: cornflowerblue;
+        border-radius: 5px;
+        width: 20%;
+        height: 25%;
     }
 
     #Noticia1 {
@@ -588,10 +603,11 @@ body{
 
 
    
-   /* .Contatos{
-        width: 269px; 
-        height: 249px;
-    }*/
+   .Contatos{
+        width: 100%; 
+        height: 98%;
+        border-radius: 5%;
+    }
 
     
     /*#Principal{
@@ -599,6 +615,7 @@ body{
         height: 600px;
         
     }*/
+
     #Barra-Secundaria{
         display: flex;
         justify-content: center;
@@ -829,8 +846,9 @@ body{
 }
 
 .materia-especial{
-    width: 271px;
-    height: 188px;
+    width: 100%;
+    height: 50%;
+    border-radius: 5%;
 }
 
 .Carrosel3 i{
@@ -927,8 +945,9 @@ body{
     }
 
     .revista{
-        width: 251px;
-        height: 188px;
+        width: 100%;
+        height: 100%;
+        border-radius: 5%;
     }
 
     .Passar5{
@@ -1308,18 +1327,17 @@ a > i:hover{
 #und2-1-1{
     width: 49%;
     height: 50%;
-    background-color: aquamarine;
     /*margin: auto;*/
     border-radius: 3%;
     display: flexbox;
     justify-content: space-around;
+    background-color: brown;
      
 }
 
 #und2-1-2{
     width: 49%;
     height: 50%;
-    background-color: brown;
     /*margin: auto;*/
     border-radius: 3%;
   
@@ -1328,7 +1346,6 @@ a > i:hover{
 #und2-1-3{
     width: 49%;
     height: 50%;
-    background-color: green;
     /*margin: auto;*/
     border-radius: 3%;
 
@@ -1337,7 +1354,6 @@ a > i:hover{
 #und2-1-4{
     width: 49%;
     height: 50%;
-    background-color: skyblue;
     /*margin: auto;*/
     border-radius: 3%;
 
@@ -1424,6 +1440,9 @@ a > i:hover{
     background-color: violet;
     width: 60%;
     border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #trmd3{
