@@ -1472,31 +1472,70 @@ a > i:hover{
     border-radius: 3%;
     display:flex;
     flex-direction: column;
+    justify-items: center;
+    align-items: center;
     gap:1.5%;
 }
 
-#eed1-1{
-    background-color: gray;
-    height: 50%;
-    border-radius: 3%;
+.time{
+   float: right;
 }
 
-#eed1-2{
-    background-color: orange;
+#eed1 div a{
+    color: darkblue;
+}
+
+#eed1 div a:hover{
+    color: cornflowerblue;
+}
+
+#eed1-1{
+    background-color: lightgray;
     height: 50%;
     border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 3%;
+    gap: 5%;
+}
+
+
+#eed1-2{
+    background-color: lightgray;
+    height: 50%;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 3%;
+    gap: 5%;
 }
 
 #eed1-3{
-    background-color: pink;
+    background-color: lightgray;
     height: 50%;
     border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 3%;
+    gap: 5%;
 }
 
 #eed1-4{
-    background-color: cadetblue;
+    background-color: lightgray;
     height: 50%;
     border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 3%;
+    gap: 5%;
 }
 
 #eed2{
